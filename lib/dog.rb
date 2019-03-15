@@ -13,8 +13,8 @@ class Dog
   end
   
   def self.all
-    @@all.map
-    binding.pry
+    @@all.map { |dog|
+    binding.pry }
   end
   
 end
