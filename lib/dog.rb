@@ -12,8 +12,8 @@ class Dog
     @@all.clear
   end
   
-  # def self.all
-  #   binding.pry
-  # end
+  def self.all
+    binding.pry
+  end
   
 end
