@@ -13,11 +13,7 @@ class Dog
   end
   
   def self.all
-    names = []
     binding.pry
-    # self.all.each { |dog|
-    #   names << dog.name }
-    names
   end
   
 end
